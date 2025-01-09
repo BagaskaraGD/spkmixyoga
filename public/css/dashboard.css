@@ -1,0 +1,29 @@
+.main-content {
+    padding: 20px;
+}
+
+.box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+}
+
+.box:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9rem;
+    background-color: white;
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.footer a {
+    color: #007bff;
+    text-decoration: none;
+}

@@ -1,0 +1,67 @@
+body {
+    background-color: #D9D9D9;
+}
+
+.login-container {
+    background-color: #ffeb3b;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    
+}
+
+.login-container h1 {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.login-container .form-control {
+    border-radius: 20px;
+}
+
+.login-container .btn-login {
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 20px;
+}
+
+.login-container .btn-login:hover {
+    background-color: #45a049;
+}
+
+.links {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.links a {
+    color: #000;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.yoga-icon {
+    height: 100px;
+}
+
+.side-icons {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.left-icon {
+    left: 5%;
+}
+
+.right-icon {
+    right: 5%;
+}
+.yoga-icon {
+height: 250px; 
+}

@@ -1,0 +1,61 @@
+body {
+    background-color: #D9D9D9;
+}
+
+.sidebar {
+    position: fixed !important;
+    max-width: 100%;
+    background-color: #FFDF59;
+    min-height: 100vh;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: none;
+    z-index: 1000;
+}
+
+.sidebar h4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar .nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+.sidebar .nav-link:hover {
+    text-decoration: underline;
+}
+
+.sidebar .logout {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.content-header {
+    background-color: white;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.content-header h5 {
+    margin: 0;
+    display: inline-block;
+}
+.nav-link.active {
+    background-color: #00BF63; /* Warna latar belakang biru */
+    color: white; /* Warna teks putih */
+    font-weight: bold; /* Teks tebal */
+    border-radius: 5px; /* Sudut membulat */
+}
+/* Main Content */
+.flex-grow-1 {
+    margin-left: 210px; /* Menyediakan ruang untuk sidebar */
+
+    background-color: #D9D9D9;
+}
